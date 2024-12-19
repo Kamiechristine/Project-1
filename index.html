@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Articles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>News Articles</h1>
+    
+    <!-- Search Form -->
+    <div>
+        <input type="text" id="search-input" placeholder="Search for news">
+        <button id="search-btn">Search</button>
+    </div>
+
+    <!-- News Articles Container -->
+    <div id="articles"></div>
+
+    <!-- News Submission Form -->
+    <form id="news-form">
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="description" placeholder="Description" required></textarea>
+        <input type="text" id="url" placeholder="URL" required>
+        <button type="submit">Submit News</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
